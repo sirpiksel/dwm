@@ -67,8 +67,8 @@ static const char *volupcmd[]    = { "/home/philip/Documents/dev/scripts/volumec
 static const char *nvimcmd[]     = { "st", "-e", "nvim", NULL };
 static const char *m3morycmd[]   = { "/home/philip/Documents/dev/scripts/m3mory.sh", NULL };
 static const char *spotifycmd[]  = { "spotify", NULL };
-static const char *lockcmd[]     = { "sudo", "sh", "-c", "'echo", "0", ">", "/sys/class/leds/spi::kbd_backlight/brightness'", "&&", "xsecurelock", "&&", "sudo", "sh", "-c", "'echo", "255", ">", "/sys/class/leds/spi::kbd_backlight/brightness'", NULL };
-static const char *mbpfancmd[]   = { "sudo", "systemctl", "is-active", "mbpfan.service", "&&", "sudo", "systemctl", "stop", "mbpfan.service", "||", "sudo", "systemctl", "start", "mbpfan.service", NULL };
+static const char *lockcmd[]     = { "/home/philip/Documents/dev/scripts/lockscreen.sh", NULL };
+static const char *mbpfancmd[]   = { "/home/philip/Documents/dev/scripts/mbpfanctl.sh", NULL };
 static const char *randrcmd[]    = { "autorandr", "--force", "-c", NULL };
 static const char *passcmd[]     = { "passmenu", "-c", "-l", "5", NULL };
 

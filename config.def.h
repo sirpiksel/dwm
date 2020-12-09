@@ -3,11 +3,11 @@
 /* appearance */
 static const unsigned int borderpx  = 0;        /* border pixel of windows */
 static const unsigned int snap      = 0;        /* snap pixel */
-static const unsigned int gappx     = 20;        /* gaps between windows */
+static const unsigned int gappx     = 15;        /* gaps between windows */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const int vertpad            = 20;       /* vertical padding of bar */
-static const int sidepad            = 20;       /* horizontal padding of bar */
+static const int vertpad            = 15;       /* vertical padding of bar */
+static const int sidepad            = 15;       /* horizontal padding of bar */
 static const char *fonts[]          = { "MesloLGS NF:style=Regular:pixelsize=10:antialias=true:autohint=true" };
 static const char dmenufont[]       = "MesloLGS NF:style=Regular:pixelsize=10:antialias=true:autohint=true";
 static const char col_norm[]       = "#b3b3b3";
@@ -61,7 +61,7 @@ static const char *termcmd[]     = { "st", NULL };
 static const char *browsercmd[]  = { "chromium", NULL };
 static const char *toriumcmd[]   = { "/home/philip/Documents/dev/scripts/torium.sh", NULL };
 static const char *trackpadcmd[] = { "/home/philip/Documents/dev/scripts/toggletrackpad.sh", NULL };
-static const char *lfcmd[]       = { "st -e \"lf\"", NULL };
+static const char *lfcmd[]       = { "st", "-e", "\"lf\"", NULL };
 static const char *voldowncmd[]  = { "/home/philip/Documents/dev/scripts/volumecontrol.sh -r", NULL };
 static const char *volupcmd[]    = { "/home/philip/Documents/dev/scripts/volumecontrol.sh -i", NULL };
 static const char *nvimcmd[]     = { "st -e \"nvim\"", NULL };

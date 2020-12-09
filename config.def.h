@@ -10,9 +10,9 @@ static const int vertpad            = 15;       /* vertical padding of bar */
 static const int sidepad            = 15;       /* horizontal padding of bar */
 static const char *fonts[]          = { "MesloLGS NF:style=Regular:pixelsize=10:antialias=true:autohint=true" };
 static const char dmenufont[]       = "MesloLGS NF:style=Regular:pixelsize=10:antialias=true:autohint=true";
-static const char col_norm[]       = "#b3b3b3";
-static const char col_sel[]       = "#ffffff";
-static const char col_bg[]       = "#101214";
+static const char col_norm[]        = "#b3b3b3";
+static const char col_sel[]         = "#ffffff";
+static const char col_bg[]          = "#101214";
 static const char *colors[][3]      = {
         /*               fg         bg      border   */
         [SchemeNorm] = { col_norm, col_bg, col_bg },

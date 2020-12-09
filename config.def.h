@@ -100,7 +100,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_u,         setlayout,      {.v = &layouts[1]} },
 	{ MODKEY,                       XK_i,         setlayout,      {.v = &layouts[2]} },
 	{ MODKEY,                       XK_p,         togglefloating, {0} },
-  { MODKEY,                       XK_0,         view,           {.ui = ~0 } },
+	{ MODKEY,                       XK_0,         view,           {.ui = ~0 } },
 	{ MODKEY,                       XK_m,         focusmon,       {.i = -1 } },
 	{ MODKEY,                       XK_comma,     focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_m,         tagmon,         {.i = -1 } },

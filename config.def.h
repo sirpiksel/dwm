@@ -56,7 +56,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[]    = { "exec /home/philip/Documents/dev/scripts/spotlight.sh",  NULL };
+static const char *dmenucmd[]    = { "st", "/home/philip/Documents/dev/scripts/spotlight.sh",  NULL };
 static const char *termcmd[]     = { "st", NULL };
 static const char *browsercmd[]  = { "chromium", NULL };
 static const char *toriumcmd[]   = { "/home/philip/Documents/dev/scripts/torium.sh", NULL };
